@@ -281,7 +281,7 @@ li {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     font-family: minion-pro, serif;
-    border-bottom: 1px solid #EDEADE;
+    border-bottom: 2px solid #EDEADE;
     font-size: 20px;
     line-height: 165%;
 }
@@ -816,5 +816,206 @@ footer {
 @media (max-width: 430px) {
     .homepageHeaderEmail h2 {
         font-size: 18px;
+    }
+}
+
+/* ABOUT PAGE */
+
+.aboutHeader {
+    background: #F9F8F4;
+}
+
+.aboutContentText {
+    width: 50%;
+}
+
+.aboutHeader h1 {
+    font-size: 36px;
+    line-height: 125%;
+    color: #111;
+    max-width: 485px;
+    padding-right: 65px;
+    margin-bottom: 48px;
+    margin-right: unset;
+    margin-left: unset;
+    font-weight: 700;
+}
+
+.aboutContentText p {
+    font-family: minion-pro, serif;
+    color: #111;
+    font-size: 21px;
+    line-height: 165%;
+    margin-bottom: 20px;
+}
+.aboutContentText em {
+    font-weight: 400;
+    font-family: minion-pro, serif;
+}
+
+.aboutHeader {
+    padding: 77px 0 128px;
+    background: #F9F8F4;
+}
+.aboutContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.markedList ul>li {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 16px;
+    list-style: none;
+    padding-left: 36px;
+    position: relative;
+}
+
+.markedList ul>li::before {
+    content: '';
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDExIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik05LjM0NTcgMC4xNzk2ODhMMy42OTUzMSA1LjgzMDA4TDEuNjMyODEgMy43NDYwOUMxLjUyNTM5IDMuNjYwMTYgMS4zNTM1MiAzLjY2MDE2IDEuMjY3NTggMy43NDYwOUwwLjY0NDUzMSA0LjM2OTE0QzAuNTU4NTk0IDQuNDU1MDggMC41NTg1OTQgNC42MjY5NSAwLjY0NDUzMSA0LjczNDM4TDMuNTIzNDQgNy41OTE4QzMuNjMwODYgNy42OTkyMiAzLjc4MTI1IDcuNjk5MjIgMy44ODg2NyA3LjU5MThMMTAuMzM0IDEuMTQ2NDhDMTAuNDE5OSAxLjA2MDU1IDEwLjQxOTkgMC44ODg2NzIgMTAuMzM0IDAuNzgxMjVMOS43MTA5NCAwLjE3OTY4OEM5LjYyNSAwLjA3MjI2NTYgOS40NTMxMiAwLjA3MjI2NTYgOS4zNDU3IDAuMTc5Njg4WiIgZmlsbD0iIzExMTExMSIvPgo8L3N2Zz4K);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #F8CD5F;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    -webkit-transform: unset;
+    -ms-transform: unset;
+    transform: unset;
+}
+
+/* BENEFIT */
+
+.benefitWrapper {
+    width: 730px;
+    margin: 0 auto;
+}
+
+.benefit {
+    padding: 120px 0;
+}
+
+.benefit h1 {
+    font-size: 26px;
+    line-height: 150%;
+    margin-bottom: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.benefitParagraph {
+    font-size: 21px;
+    line-height: 165%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: minion-pro, serif;
+}
+
+.defaultList li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #111;
+    position: relative;
+    left: -21px;
+    top: 18px;
+    border-radius: 10px;
+}
+
+.defaultList li {
+    margin-bottom: 10px;
+    padding-left: 1.5em;
+    font-size: 21px;
+    line-height: 165%;
+    font-family: minion-pro, serif;
+}
+
+.aboutMe h1 {
+    font-size: 26px;
+    line-height: 150%;
+    margin-bottom: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.aboutThingsItem h3 {
+    font-family: europa;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.aboutThingsItem a {
+    font-family: europa;
+    font-weight: bold;
+}
+
+.aboutMe {
+    padding-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+    .aboutContent {
+        flex-wrap: wrap;
+    }
+    .aboutContentText {
+        width: 100%;
+    }
+    .aboutContentList  {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .aboutHeader {
+        padding: 54px 0;
+        background: #F9F8F4;
+    }
+    .aboutHeader h1 {
+        font-size: 24px;
+    }
+    .aboutHeader h1 {
+        margin-bottom: 24px;
+    }
+    .aboutContentText p {
+        font-size: 20px;
+    }
+    .aboutContentText p {
+        line-height: 150%;
+    }
+    .benefitWrapper {
+        padding-right: 27px;
+        padding-left: 27px;
+    }
+    .benefit h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .benefitParagraph {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .benefit {
+        padding: 60px 0;
+    }
+    .aboutThingsItem h3 {
+        font-size: 18px;
+    }
+    .defaultList li {
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+}
+@media (max-width: 600px) {
+    .benefitWrapper {
+        width: 100%;
     }
 }
